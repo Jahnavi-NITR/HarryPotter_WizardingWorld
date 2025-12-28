@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Harry Potter</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="home" class="font-sans bg-white scroll-smooth">
+
+<!-- Header/Hero -->
+<header>
+    <div class="relative min-h-screen bg-[url('https://wallpapercat.com/w/full/0/2/9/2164066-3000x1688-desktop-hd-hogwarts-castle-background.jpg')] bg-cover bg-center">
+        <div class="absolute inset-0 bg-black/60">
+            <div class="relative px-6 md:px-28 py-6">
+
+                <!-- Navbar -->
+                <nav class="flex items-center justify-between">
+                    <img 
+                        src="https://www.harrypotter.com/_next/static/images/logo-gold-600-7a7e89b6db1ffeaab025f2091d21b645.png"
+                        alt="Harry Potter Logo"
+                        class="w-32 md:w-40"
+                    >
+                    <ul class="hidden md:flex space-x-10 text-white">
+                        <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-yellow-400 transition">About</a></li>
+                        <li><a href="#houses" class="hover:text-yellow-400 transition">Houses</a></li>
+                        <li><a href="#books" class="hover:text-yellow-400 transition">Books</a></li>
+                        <li><a href="#movies" class="hover:text-yellow-400 transition">Movies</a></li>
+                        <li>
+                            <button id="musicBtn">
+                                <span id="musicIcon">🎵</span>
+                            </button>
+                        </li>
+                    </ul>
+                    <button class="md:hidden text-white text-2xl">☰</button>
+                </nav>
+
+                <!-- Hero Text -->
+                <div class="mt-32 md:mt-40 max-w-xl text-white">
+                    <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                        Welcome to the Wizarding World
+                    </h2>
+                    <p class="text-base md:text-lg mb-8 leading-relaxed">
+                        Discover the magic of Hogwarts. Explore books, movies,
+                        legendary characters, and the wizarding universe like never before.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main -->
+<main>
+
+<!-- About Hogwarts -->
+ <section id="about" class="bg-gradient-to-b from-slate-950 to-slate-900 text-white py-20 px-6 md:px-28">
+<div class="text-center mb-14">
+    <h2 class="text-4xl md:text-6xl font-bold mb-6 font-heading text-yellow-400 pb-2">
+        Welcome to Hogwarts
+    </h2>
+    <p class="text-lg font-paragraph leading-relaxed mb-4">Hogwarts School of Witchcraft and Wizardry is the finest magical institution in Britain, founded over a thousand years ago by the four greatest witches and wizards of the age: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.</p>
+    <p class="text-lg font-paragraph leading-relaxed mb-4">Here, young witches and wizards learn to master their magical abilities, study ancient spells, brew powerful potions, and discover the secrets of the magical world. From Defense Against the Dark Arts to Transfiguration, from Herbology to Charms, students receive a comprehensive magical education.</p>
+    <p class="text-lg font-paragraph leading-relaxed mb-4">The castle itself is enchanted with countless spells and filled with moving staircases, talking portraits, and hidden passages. It stands on the shores of the Great Lake, surrounded by the Forbidden Forest, creating an atmosphere of wonder and mystery.</p>
+</div>
+ </section>
+
+ <div class="h-px bg-gradient-to-r from-transparent via-yellow-600 to-transparent"></div>
+
+<!-- Houses -->
+<section id="houses" class="bg-gradient-to-b from-slate-900 to-slate-950 text-white py-20 px-6 md:px-28">
+    <div class="text-center mb-14">
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-heading text-yellow-400 pb-2">
+            Houses of Hogwarts
+        </h2>
+        <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+            Every student is sorted into a house that reflects their true nature.
+        </p>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Houses Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:pr-6">
+
+            <div class="bg-red-900/80 rounded-2xl p-5 hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-1">Gryffindor</h3>
+                <p class="text-gray-200 text-sm">
+                    Courage, bravery, and determination.
+                </p>
+            </div>
+
+            <div class="bg-green-900/80 rounded-2xl p-5 hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-1">Slytherin</h3>
+                <p class="text-gray-200 text-sm">
+                    Ambition, cunning, and leadership.
+                </p>
+            </div>
+
+            <div class="bg-blue-900/80 rounded-2xl p-5 hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-1">Ravenclaw</h3>
+                <p class="text-gray-200 text-sm">
+                    Wisdom, creativity, and intelligence.
+                </p>
+            </div>
+
+            <div class="bg-yellow-700/80 rounded-2xl p-5 hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-1">Hufflepuff</h3>
+                <p class="text-gray-200 text-sm">
+                    Loyalty, patience, and fairness.
+                </p>
+            </div>
+
+        </div>
+        <div class="flex justify-center lg:justify-end">
+            <img 
+                src="c:\Users\kjahn\Downloads\pngegg.png-removebg-preview.png"
+                alt="Hogwarts Crest"
+                class="max-w-sm w-full drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+            >
+        </div>
+
+    </div>
+</section>
+
+<div class="h-px bg-gradient-to-r from-transparent via-yellow-600 to-transparent"></div>
+
+<!-- Books -->
+<section id="books" class="bg-gradient-to-b from-slate-950 to-slate-900 text-white py-20 px-6 md:px-28">
+    <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-heading text-yellow-400 pb-2">Books</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+            Journey through the magical Harry Potter book series.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/f0/d2/8b/f0d28bce35617b8f42994c5e45839ae1.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Philosopher's Stone
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/4c/13/21/4c13215f758964d28fca610674758757.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Chamber of Secrets
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/0e/34/6f/0e346fbfa4501035e3dc69d71ae4f96b.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Prisoner of Azkaban
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/e4/6a/2e/e46a2e5d0ac02565aadfe327d044720a.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Goblet of Fire
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/e9/94/85/e99485f79b0536623ae4d4b31c36e85a.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Order of the Phoenix
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/d8/55/43/d85543587285a4a8c92d2738d5812e2a.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Half-Blood Prince
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/6f/a1/8f/6fa18f089942e5e82854252700e3f988.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Deathly Hallows
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/0d/6d/aa/0d6daa98b2d126f8183400dcf35b73d7.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Cursed Child
+        </div>
+  </div>
+</section>
+
+<div class="h-px bg-gradient-to-r from-transparent via-yellow-600 to-transparent"></div>
+
+<!-- Movies -->
+<section id="movies" class="bg-gradient-to-b from-slate-900 to-slate-950 text-white py-20 px-6 md:px-28">
+    <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-heading text-yellow-400 pb-2">Movies</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+            Experience the cinematic adventure of Harry Potter.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/1200x/1d/ca/34/1dca34e26a03df9b3b621c4532445461.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Philosopher's Stone
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/1200x/9e/b6/f8/9eb6f827a569482a2000ba67016f7ee8.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Chamber of Secrets
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/5b/6c/ea/5b6ceac90a10ee0064ed4a95370ed2d9.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+            Harry Potter and the Prisoner of Azkaban
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/1200x/c5/8f/36/c58f362c6dee0b9c740489855953965e.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Goblet of Fire
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/1200x/37/d2/b9/37d2b9c9ba1ad8ca29d0a45b5abc2f55.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Order of the Phoenix
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/6a/da/c8/6adac852cb98aca061d688bab3650a2a.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Half-Blood Prince
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/1200x/9b/eb/6b/9beb6b659b4debcad4afcd637919bf8e.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Deathly Hallows Part-1
+        </div>
+        <div class="text-center group">
+            <div class="overflow-hidden rounded-xl mb-3">
+                <img src="https://i.pinimg.com/736x/69/cc/e1/69cce1cda5aa76f2581e846f4b8a4a14.jpg" class="rounded-xl group-hover:scale-110 transition-transform duration-500 w-full">
+            </div>
+          Harry Potter and the Deathly Hallows Part-2
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-black text-center py-10 px-6 border-t border-yellow-600/30">
+    <p class="text-gray-400 mb-2">&copy; Wizarding World fan site</p>
+    <p class="text-yellow-600 italic">"Happiness can be found even in the darkest of times, if one only remembers to turn on the light."</p>
+</footer>
+
+<!-- Audio element -->
+<audio id="bgMusic" loop>
+    <source src="c:\Users\kjahn\Downloads\hedwigs_theme.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Script for music control -->
+<script>
+    const musicBtn = document.getElementById('musicBtn');
+    const musicIcon = document.getElementById('musicIcon');
+    const bgMusic = document.getElementById('bgMusic');
+    let isPlaying = false;
+
+    musicBtn.addEventListener('click', function() {
+        if (isPlaying) {
+            bgMusic.pause();
+            musicIcon.textContent = '🎵';
+            isPlaying = false;
+        } else {
+            bgMusic.play();
+            musicIcon.textContent = '⏸️';
+            isPlaying = true;
+        }
+    });
+</script>
+
+</body>
+</html>
