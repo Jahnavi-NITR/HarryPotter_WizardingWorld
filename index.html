@@ -30,13 +30,7 @@
                         <li><a href="#houses" class="hover:text-yellow-400 transition">Houses</a></li>
                         <li><a href="#books" class="hover:text-yellow-400 transition">Books</a></li>
                         <li><a href="#movies" class="hover:text-yellow-400 transition">Movies</a></li>
-                        <li>
-                            <button id="musicBtn">
-                                <span id="musicIcon">🎵</span>
-                            </button>
-                        </li>
                     </ul>
-                    <button class="md:hidden text-white text-2xl">☰</button>
                 </nav>
 
                 <!-- Hero Text -->
@@ -261,31 +255,7 @@
     <p class="text-yellow-600 italic">"Happiness can be found even in the darkest of times, if one only remembers to turn on the light."</p>
 </footer>
 
-<!-- Audio element -->
-<audio id="bgMusic" loop>
-    <source src="c:\Users\kjahn\Downloads\hedwigs_theme.mp3" type="audio/mpeg">
-</audio>
-
-<!-- Script for music control -->
-<script>
-    const musicBtn = document.getElementById('musicBtn');
-    const musicIcon = document.getElementById('musicIcon');
-    const bgMusic = document.getElementById('bgMusic');
-    let isPlaying = false;
-
-    musicBtn.addEventListener('click', function() {
-        if (isPlaying) {
-            bgMusic.pause();
-            musicIcon.textContent = '🎵';
-            isPlaying = false;
-        } else {
-            bgMusic.play();
-            musicIcon.textContent = '⏸️';
-            isPlaying = true;
-        }
-    });
-</script>
-
 </body>
 </html>
+
 
