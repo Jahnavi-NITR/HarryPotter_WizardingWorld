@@ -14,7 +14,7 @@ This website is inspired from the official Harry Potter website.
 
 A responsive, interactive fan site dedicated to the **Harry Potter** universe, built using **HTML**, **Tailwind CSS**, and **JavaScript**.
 
-Explore Hogwarts, houses, books, movies, and enjoy background music from the wizarding world.
+Explore Hogwarts, houses, books and movies from the wizarding world.
 
 ## Features
 
