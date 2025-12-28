@@ -1,17 +1,20 @@
 # About Myself
 
--Name: Jahnavi
--Roll No: 125EI0017
--Topic: Harry Potter fan site
+Name: Jahnavi
+
+Roll No: 125EI0017
+
+Topic: Harry Potter fan site
 
 I learned HTML, Tailwind CSS and Javascript from Youtube
 
+This website is inspired from the official Harry Potter website.
+
 # Harry Potter Fan Site
 
--A responsive, interactive fan site dedicated to the **Harry Potter** universe, built using **HTML**, **Tailwind CSS**, and **JavaScript**. 
--Explore Hogwarts, houses, books, movies, and enjoy background music from the wizarding world.
+A responsive, interactive fan site dedicated to the **Harry Potter** universe, built using **HTML**, **Tailwind CSS**, and **JavaScript**.
 
----
+Explore Hogwarts, houses, books, movies, and enjoy background music from the wizarding world.
 
 ## Features
 
